@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "radiusreplay",
+  "version": "1.0.0",
+  "name": "RadiusReplay",
+  "description": "Original client-side replay recording and playback: movement, entities, blocks, inventory, health and chat, with a timeline, free camera and speed controls.",
+  "authors": [
+    "RadiusXD"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.radiusreplay.RadiusReplayClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "radiusreplay.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "fabric-api": "*",
+    "minecraft": ">=1.21.11 <1.22",
+    "java": ">=21"
+  }
+}

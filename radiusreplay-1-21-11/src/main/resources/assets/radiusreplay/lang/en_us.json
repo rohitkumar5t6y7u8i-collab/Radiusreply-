@@ -1,0 +1,8 @@
+{
+  "key.radiusreplay.record": "Start/Stop Recording",
+  "key.radiusreplay.menu": "Open Replay Menu",
+  "key.radiusreplay.playpause": "Play/Pause Replay",
+  "key.radiusreplay.chat": "Toggle Replay Chat",
+  "key.radiusreplay.camera": "Cycle Replay Camera",
+  "key.categories.radiusreplay.main": "RadiusReplay"
+}

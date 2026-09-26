@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.radiusreplay.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ChatCaptureMixin",
+    "BlockCaptureMixin",
+    "MouseTurnMixin",
+    "FreeCamAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
